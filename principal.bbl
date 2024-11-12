@@ -1,0 +1,69 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.7 }
+
+\bibitem[aws 2024]{sql:explicacao}
+\abntrefinfo{aws}{AWS}{2024}
+{AWS. \emph{O que é SQL (linguagem de consulta estruturada)?} 2024.
+Acesso em: 31 de Julho de 2024.
+Dispon{\'\i}vel em: \url{https://aws.amazon.com/pt/what-is/sql/}.}
+
+\bibitem[Brito 2019]{spring:web:flux:explicacao}
+\abntrefinfo{Brito}{BRITO}{2019}
+{BRITO, M. \emph{Spring Webflux}. 2019.
+Acesso em 1 de Agosto de 2024.
+Dispon{\'\i}vel em:
+  \url{https://medium.com/@michellibrito/spring-webflux-f611c8256c53}.}
+
+\bibitem[Kestermann 2020]{swt:explicacao}
+\abntrefinfo{Kestermann}{KESTERMANN}{2020}
+{KESTERMANN, T. \emph{The Standard Widget Toolkit (SWT) — Java UI at its Best
+  (Part 1)}. 2020.
+Acesso em 1 de Agosto de 2024.
+Dispon{\'\i}vel em:
+  \url{https://medium.com/@TorstenKestermann/the-standard-widget-toolkit-swt-java-ui-at-its-best-part-1-444f7f15b74}.}
+
+\bibitem[Miro 2024]{uml:explicacao}
+\abntrefinfo{Miro}{MIRO}{2024}
+{MIRO. \emph{O que é um diagrama UML}. 2024.
+Acesso em: 13 de Abril de 2024.
+Dispon{\'\i}vel em: \url{https://miro.com/pt/diagrama/o-que-e-uml/}.}
+
+\bibitem[Sabino 2023]{kanban:explicacao}
+\abntrefinfo{Sabino}{SABINO}{2023}
+{SABINO, R. \emph{Kanban: o que é, o Método Kanban, principais conceitos e
+  como funciona no dia a dia}. 2023.
+Acesso em: 22 de Outubro de 2024.
+Dispon{\'\i}vel em: \url{https://www.alura.com.br/artigos/metodo-kanban}.}
+
+\bibitem[Santana 2016]{spring:web:explicacao}
+\abntrefinfo{Santana}{SANTANA}{2016}
+{SANTANA, E. \emph{Desenvolvendo uma Aplicação Web com Spring Boot e Spring
+  MVC}. 2016.
+Acesso em 1 de Agosto de 2024.
+Dispon{\'\i}vel em:
+  \url{https://www.devmedia.com.br/desenvolvendo-uma-aplicacao-web-com-spring-boot-e-spring-mvc/34122}.}
+
+\bibitem[Steen e Tanenbaum 2024]{distributed:systems:book}
+\abntrefinfo{Steen e Tanenbaum}{STEEN; TANENBAUM}{2024}
+{STEEN, M. van; TANENBAUM, A.~S. \emph{Distributed Systems}. 4rd. ed. [s.n.],
+  2024. E-book. Dispon{\'\i}vel em:
+  \url{https://www.distributed-systems.net/index.php/books/ds4/}.}
+
+\bibitem[Vitor 2024]{flyway:explicacao}
+\abntrefinfo{Vitor}{VITOR}{2024}
+{VITOR, O. \emph{O que é Flyway e por que usa-lo? Com Java e Spring!} 2024.
+Acesso em 1 de Agosto de 2024.
+Dispon{\'\i}vel em:
+  \url{https://medium.com/@perez\_vitor/o-que-\%C3\%A9-flyway-e-por-que-usa-lo-com-java-e-spring-312219ebf840}.}
+
+\bibitem[VMware 2024]{spring:explicacao}
+\abntrefinfo{VMware}{VMWARE}{2024}
+{VMWARE. \emph{Why Spring?} 2024.
+Acesso em: 31 de Junho de 2024.
+Dispon{\'\i}vel em: \url{https://spring.io/why-spring}.}
+
+\end{thebibliography}

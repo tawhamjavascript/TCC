@@ -1,0 +1,9 @@
+\backcite {uml:explicacao}{{12}{2.1}{section.2.1}}
+\backcite {sql:explicacao}{{12}{2.2}{section.2.2}}
+\backcite {spring:explicacao}{{13}{2.3}{section.2.3}}
+\backcite {spring:web:explicacao}{{13}{2.4}{section.2.4}}
+\backcite {spring:web:flux:explicacao}{{14}{2.5}{section.2.5}}
+\backcite {flyway:explicacao}{{14}{2.6}{section.2.6}}
+\backcite {swt:explicacao}{{14}{2.7}{section.2.7}}
+\backcite {kanban:explicacao}{{14}{2.8}{section.2.8}}
+\backcite {distributed:systems:book}{{17}{3.1}{section.3.1}}

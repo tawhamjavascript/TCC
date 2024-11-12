@@ -1,0 +1,51 @@
+% ||||||||||||||||||||||||||||||||||||||||||||||
+% Informações de dados para CAPA e FOLHA DE ROSTO
+% ||||||||||||||||||||||||||||||||||||||||||||||
+\titulo{Título do trabalho} % Não utilize o ponto final no título
+\autor{Nome do dicente}
+\local{João Pessoa}
+\data{2022}
+\orientador{Prof. Dr. Paulo Ditarso Maciel Jr.}
+% \coorientador{Prof. Dr. Nome Sobrenome} % comente esta linha caso nao tenha coorientador
+\instituicao{%
+  Instituto Federal de Educação, Ciência e Tecnologia da Paraíba
+  \par
+  Campus João Pessoa
+  \par
+  Unidade Acadêmica de Informação e Comunicação
+}
+\tipotrabalho{Relatório de Estágio}
+
+% O preambulo deve conter o tipo do trabalho, o objetivo, 
+% o nome da instituição e a área de concentração 
+
+\preambulo{Relatório de Estágio Supervisionado apresentado à unidade curricular de Estágio Obrigatório do Curso Superior de Tecnologia em Redes de Computadores do Instituto Federal de Educação, Ciência e Tecnologia da Paraíba, como requisito parcial para obtenção do grau de Tecnólogo em Redes de Computadores.}
+
+%\preambulo{Trabalho apresentado como requisito para a obtenção do título de Mestre, pelo Programa de Pós-Graduação em Tecnologia da Informação do Instituto Federal da Paraíba - IFPB.}
+
+% ----------------------------------------------
+% Configurações de aparência do PDF final
+% ----------------------------------------------
+% alterando o aspecto da cor azul
+\definecolor{blue}{RGB}{41,5,195}
+
+% alterando o aspecto da cor cinza
+\definecolor{gray}{RGB}{50,50,50}
+
+% informações do PDF
+\makeatletter
+\hypersetup{
+     	%pagebackref=true,
+		pdftitle={\imprimirtitulo}, 
+		pdfauthor={\imprimirautor},
+    	pdfsubject={\imprimirpreambulo},
+	    pdfcreator={LaTeX - abnTeX2 - Overleaf},
+		pdfkeywords={abnt}{latex}{abntex2}{trabalho acadêmico}{ifpb}{ppgti}{mpti}{mestrado profissional},  
+		colorlinks=true, % false: boxed links; true: colored links
+    	linkcolor=black, % color of internal links
+    	citecolor=black, % color of links to bibliography
+    	filecolor=blue,  % color of file links
+		urlcolor=gray,	 % color of url links
+		bookmarksdepth=4
+}
+\makeatother
