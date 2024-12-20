@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.9)  12 NOV 2024 07:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.9)  19 DEC 2024 19:24
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -40,7 +40,7 @@ Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \c@@memmarkcntra=\count199
 
 (/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2022/02/03 v1.0f TeX engine tests
+Package: iftex 2024/12/12 v1.0g TeX engine tests
 )
 \trimtop=\skip52
 \trimedge=\skip53
@@ -521,7 +521,7 @@ File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO
 \BKM@id=\count334
 ))
 (/usr/local/texlive/2024/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2024/10/20 v24.12 The multilingual framework for pdfLaTeX, LuaLa
+Package: babel 2024/11/30 v24.14 The multilingual framework for pdfLaTeX, LuaLa
 TeX and XeLaTeX
 \babel@savecnt=\count335
 \U@D=\dimen190
@@ -761,14 +761,14 @@ File: csquotes.cfg
 \cftquadronumwidth=\skip260
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/lastpage/lastpage.sty
-Package: lastpage 2024/07/07 v2.1c lastpage: 2.09 or 2e? (HMM)
+Package: lastpage 2024/11/24 v2.1d lastpage: 2.09 or 2e? (HMM)
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/lastpage/lastpage2e.sty
-Package: lastpage2e 2024/07/07 v2.1c Decide which 2e lastpage version to use (H
+Package: lastpage2e 2024/11/24 v2.1d Decide which 2e lastpage version to use (H
 MM)
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/lastpage/lastpagemodern.sty
-Package: lastpagemodern 2024-07-07 v2.1c Refers to last page's name (HMM; JPG)
+Package: lastpagemodern 2024-11-24 v2.1d Refers to last page's name (HMM; JPG)
 \c@lastpagecount=\count363
 ) 
 )) (/usr/local/texlive/2024/texmf-dist/tex/latex/tools/indentfirst.sty
@@ -789,31 +789,33 @@ Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 \Gin@req@width=\dimen195
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/microtype.sty
-Package: microtype 2024/03/29 v3.1b Micro-typographical refinements (RS)
+Package: microtype 2024/12/12 v3.2 Micro-typographical refinements (RS)
 \MT@toks=\toks30
 \MT@tempbox=\box60
 \MT@count=\count364
-LaTeX Info: Redefining \noprotrusionifhmode on input line 1061.
-LaTeX Info: Redefining \leftprotrusion on input line 1062.
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1075.
+LaTeX Info: Redefining \leftprotrusion on input line 1076.
 \MT@prot@toks=\toks31
-LaTeX Info: Redefining \rightprotrusion on input line 1081.
-LaTeX Info: Redefining \textls on input line 1392.
+LaTeX Info: Redefining \rightprotrusion on input line 1095.
+LaTeX Info: Redefining \textls on input line 1437.
 \MT@outer@kern=\dimen196
-LaTeX Info: Redefining \textmicrotypecontext on input line 2013.
+LaTeX Info: Redefining \microtypecontext on input line 2041.
+LaTeX Info: Redefining \textmicrotypecontext on input line 2058.
 \MT@listname@count=\count365
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/microtype-pdftex.def
-File: microtype-pdftex.def 2024/03/29 v3.1b Definitions specific to pdftex (RS)
-
-LaTeX Info: Redefining \lsstyle on input line 902.
-LaTeX Info: Redefining \lslig on input line 902.
+File: microtype-pdftex.def 2024/12/12 v3.2 Definitions specific to pdftex (RS)
+LaTeX Info: Redefining \lsstyle on input line 944.
+LaTeX Info: Redefining \lslig on input line 944.
 \MT@outer@space=\skip261
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/microtype.cfg
-File: microtype.cfg 2024/03/29 v3.1b microtype main configuration file (RS)
-))
+File: microtype.cfg 2024/12/12 v3.2 microtype main configuration file (RS)
+)
+LaTeX Info: Redefining \microtypesetup on input line 3053.
+)
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2024/11/05 v2.17t AMS math features
 \@mathmargin=\skip262
@@ -1250,7 +1252,7 @@ Package: soul-ori 2023-06-14 v3.1 letterspacing/underlining (mf)
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 ))
 (/usr/local/texlive/2024/texmf-dist/tex/latex/multirow/multirow.sty
-Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
 \multirow@colwidth=\skip266
 \multirow@cntb=\count408
 \multirow@dima=\skip267
@@ -1529,7 +1531,7 @@ x) (/usr/local/texlive/2024/texmf-dist/tex/generic/circuitikz/pgfcirclabel.tex)
 (/usr/local/texlive/2024/texmf-dist/tex/generic/circuitikz/pgfcirccurrent.tex)
 (/usr/local/texlive/2024/texmf-dist/tex/generic/circuitikz/pgfcircflow.tex))
 (/usr/local/texlive/2024/texmf-dist/tex/latex/siunitx/siunitx.sty
-Package: siunitx 2024-09-30 v3.3.22 A comprehensive (SI) units package
+Package: siunitx 2024-12-06 v3.4.0 A comprehensive (SI) units package
 \l__siunitx_number_uncert_offset_int=\count431
 \l__siunitx_number_exponent_fixed_int=\count432
 \l__siunitx_number_min_decimal_int=\count433
@@ -1814,12 +1816,16 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+Package microtype Info: Patching varwidth to enable character protrusion.
+\MT@vwid@leftmargin=\dimen404
+\MT@vwid@rightmargin=\dimen405
 LaTeX Info: Redefining \microtypecontext on input line 17.
 Package microtype Info: Applying patch `item' on input line 17.
 Package microtype Info: Applying patch `toc' on input line 17.
 Package microtype Info: Applying patch `eqnum' on input line 17.
 Package microtype Info: Applying patch `footnote' on input line 17.
 Package microtype Info: Applying patch `verbatim' on input line 17.
+LaTeX Info: Redefining \microtypesetup on input line 17.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1970,7 +1976,7 @@ l.106
 
 ]) (./capitulos/1-introducao.tex
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 3
-5.
+9.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
@@ -1982,45 +1988,30 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ]) (./capitulos/2-fundamentacao.tex
 
 [11]
-<arquivos/imagens/sql.png, id=147, 451.6875pt x 425.59pt>
-File: arquivos/imagens/sql.png Graphic file (type png)
-<use arquivos/imagens/sql.png>
-Package pdftex.def Info: arquivos/imagens/sql.png  used on input line 17.
-(pdftex.def)             Requested size: 227.5pt x 214.35951pt.
-
 
 [12
 
- <./arquivos/imagens/sql.png>]
-<arquivos/imagens/spring-web.png, id=161, 487.8225pt x 424.58624pt>
-File: arquivos/imagens/spring-web.png Graphic file (type png)
-<use arquivos/imagens/spring-web.png>
-Package pdftex.def Info: arquivos/imagens/spring-web.png  used on input line 33
-.
-(pdftex.def)             Requested size: 227.5pt x 198.00716pt.
+]
 
+[13]) (./capitulos/3-atividades.tex
 
-[13 <./arquivos/imagens/spring-web.png>]
-
-[14]) (./capitulos/3-atividades.tex
-
-[15]
-<arquivos/imagens/Arquitetura-relatório-estágio.jpg, id=195, 1095.09125pt x
- 760.8425pt>
-File: arquivos/imagens/Arquitetura-relatório-estágio.jpg Graphic file (type
- jpg)
-<use arquivos/imagens/Arquitetura-relatório-estágio.jpg>
-Package pdftex.def Info: arquivos/imagens/Arquitetura-relatório-estágio.jpg
+[14]
+<arquivos/imagens/Arquitetura-relatório-estágio.png, id=183, 876.27374pt x 
+611.28375pt>
+File: arquivos/imagens/Arquitetura-relatório-estágio.png Graphic file (type
+ png)
+<use arquivos/imagens/Arquitetura-relatório-estágio.png>
+Package pdftex.def Info: arquivos/imagens/Arquitetura-relatório-estágio.png
   used on input line 25.
-(pdftex.def)             Requested size: 455.0pt x 316.12686pt.
+(pdftex.def)             Requested size: 455.0pt x 317.41234pt.
 
 
-[16
+[15
 
- <./arquivos/imagens/Arquitetura-relatório-estágio.jpg>]
+ <./arquivos/imagens/Arquitetura-relatório-estágio.png>]
 
-[17]
-<arquivos/imagens/onboarding-fluxo.jpg, id=212, 1363.0925pt x 737.75626pt>
+[16]
+<arquivos/imagens/onboarding-fluxo.jpg, id=200, 1363.0925pt x 737.75626pt>
 File: arquivos/imagens/onboarding-fluxo.jpg Graphic file (type jpg)
 <use arquivos/imagens/onboarding-fluxo.jpg>
 Package pdftex.def Info: arquivos/imagens/onboarding-fluxo.jpg  used on input l
@@ -2028,8 +2019,8 @@ ine 77.
 (pdftex.def)             Requested size: 455.0pt x 246.26337pt.
 
 
-[18 <./arquivos/imagens/onboarding-fluxo.jpg>]
-<arquivos/imagens/Cadastro-Atualizacao-fluxo.jpg, id=219, 1553.805pt x 647.4187
+[17 <./arquivos/imagens/onboarding-fluxo.jpg>]
+<arquivos/imagens/Cadastro-Atualizacao-fluxo.jpg, id=206, 1553.805pt x 647.4187
 5pt>
 File: arquivos/imagens/Cadastro-Atualizacao-fluxo.jpg Graphic file (type jpg)
 <use arquivos/imagens/Cadastro-Atualizacao-fluxo.jpg>
@@ -2038,8 +2029,8 @@ on input line 104.
 (pdftex.def)             Requested size: 455.0pt x 189.58408pt.
 
 
-[19 <./arquivos/imagens/Cadastro-Atualizacao-fluxo.jpg>]
-<arquivos/imagens/fluxo-rotina-inativacao.jpg, id=227, 1773.62625pt x 567.11874
+[18 <./arquivos/imagens/Cadastro-Atualizacao-fluxo.jpg>]
+<arquivos/imagens/fluxo-rotina-inativacao.jpg, id=215, 1773.62625pt x 567.11874
 pt>
 File: arquivos/imagens/fluxo-rotina-inativacao.jpg Graphic file (type jpg)
 <use arquivos/imagens/fluxo-rotina-inativacao.jpg>
@@ -2048,12 +2039,12 @@ input line 169.
 (pdftex.def)             Requested size: 455.0pt x 145.48303pt.
 
 
-[20 <./arquivos/imagens/fluxo-rotina-inativacao.jpg>])
+[19 <./arquivos/imagens/fluxo-rotina-inativacao.jpg>])
 (./capitulos/4-resultados.tex
 
-[21]) (./capitulos/5-conclusoes.tex
+[20]) (./capitulos/5-conclusoes.tex
 
-[22
+[21
 
 ]) (./arquivos/3-postextual.tex (./principal.bbl (./principal.brf)
 \tf@brf=\write7
@@ -2061,13 +2052,13 @@ input line 169.
 
 
 
-[23
+[22
 
 ]
 bibitemlist
 ))
 
-[24
+[23
 
 ]
 \tf@lof=\write8
@@ -2077,30 +2068,30 @@ bibitemlist
 \openout9 = `principal.toc'.
 
  
-enddocument/afterlastpage: lastpage setting LastPage.
+enddocument/afterlastpage (AED): lastpage setting LastPage.
 (./principal.aux)
  ***********
 LaTeX2e <2024-11-01>
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `principal.brf' has not changed.
-(rerunfilecheck)             Checksum: 3298F935B243C75CF32762803B8C08B9;497.
+(rerunfilecheck)             Checksum: DEB3EB035C6E807FF176A0A6AF24A776;497.
  ) 
 Here is how much of TeX's memory you used:
- 69132 strings out of 473362
- 1671887 string characters out of 5720984
- 2618387 words of memory out of 5000000
- 90964 multiletter control sequences out of 15000+600000
+ 69241 strings out of 473362
+ 1674517 string characters out of 5720984
+ 2620593 words of memory out of 5000000
+ 91076 multiletter control sequences out of 15000+600000
  606287 words of font info for 232 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 104i,13n,136p,1006b,1202s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 104i,13n,136p,1006b,1327s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/lo
 cal/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texliv
 e/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on principal.pdf (25 pages, 768936 bytes).
+Output written on principal.pdf (24 pages, 690539 bytes).
 PDF statistics:
- 413 PDF objects out of 1000 (max. 8388607)
- 366 compressed objects within 4 object streams
- 98 named destinations out of 1000 (max. 500000)
- 51000 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 399 PDF objects out of 1000 (max. 8388607)
+ 356 compressed objects within 4 object streams
+ 95 named destinations out of 1000 (max. 500000)
+ 50990 words of extra memory for PDF output out of 51595 (max. 10000000)
 

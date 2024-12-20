@@ -22,15 +22,15 @@ função e como interagem entre si.
 \begin{figure} [!h]
     \centering
     \caption{Arquitetura do projeto}
-    \includegraphics[width=1\textwidth]{arquivos/imagens/Arquitetura-relatório-estágio.jpg}
+    \includegraphics[width=1\textwidth]{arquivos/imagens/Arquitetura-relatório-estágio.png}
     \label{arquitetura-projeto}
     \legend{Fonte: próprio autor }
 \end{figure}
 
 \section{Broker}
 
-Microsserviço cuja finalidade é atuar como um broker, que segundo \cite{distributed:systems:book} é um  
-componente centralizado que gerencia a comunicação entre diferentes partes do sistema. 
+Microsserviço cuja finalidade é atuar como um broker, que é um  
+componente centralizado que gerencia a comunicação entre diferentes partes do sistema \cite{distributed:systems:book}. 
 Seguindo esse conceito, o broker funcionará como intermediador na comunicação entre os 
 serviços internos e a processadora do cartão, que é um serviço externo. 
 Esse microsserviço é essencial para o ecossistema, pois evita a duplicação de 
@@ -40,7 +40,7 @@ de cartão.
 \section{Onboarding}
 
 O onboarding é um microsserviço que foi implementado utilizando SpringBootWeb aderindo ao padrão MVC, disponibilizando 
-uma API que visa informar o fluxo de crédito que o cliente deve seguir, quando solicita um cartão, 
+uma API que visa informar o fluxo de crédito que o cliente deve seguir quando solicita um cartão, 
 que são respectivamente: 
 \begin{enumerate}
     \item \textbf{Nova proposta}: Quando o cliente não possui inadimplências, carnê ou cheque e não possui o cartão informado. 					
@@ -143,14 +143,14 @@ ao ERP qual a ação a ser tomada: cadastro ou atualização. Essa integração 
 pagamento (carnê, cheque, cartão de crédito/vista) para o cartão próprio do 
 contratante do projeto. 
 
-\textbf{Essa migração oferece benefícios ao contratante 
-do projeto, como}: maior comodidade na gestão de pagamentos, disponibilizar 
+Essa migração oferece benefícios ao contratante 
+do projeto, como: maior comodidade na gestão de pagamentos, disponibilizar 
 benefícios exclusivos ao uso do cartão, ofertar programas de pontuação e 
 condições especiais, fortalecendo assim o vínculo com a empresa e aumentando a 
 probabilidade de novas aquisições. Além de \textbf{transferir} a responsabilidade da gestão 
 dos dados do contrante do projeto para a processadora do cartão.
 
-\section{Rotina de inativação}
+\section{Rotina de inativação de cliente}
 
 A rotina de inativação é um microsserviço que foi implementado utilizando o 
 framework SpringBootWeb aderindo ao padrão MVC, que tem como objetivo bloquear 
