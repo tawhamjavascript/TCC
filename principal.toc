@@ -29,9 +29,8 @@
 \contentsline {section}{\numberline {3.4}Rotina de inativação de cliente}{19}{section.3.4}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Resultados Obtidos}}{21}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Cenários Avaliados}{21}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Métricas Consideradas}{21}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Discussão}{21}{section.4.3}%
+\contentsline {section}{\numberline {4.1}Impacto nas Operações das Lojas}{21}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Alterações no Sistema ERP}{21}{section.4.2}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Considerações Finais}}{22}{chapter.5}%
 \vspace {\cftbeforechapterskip }

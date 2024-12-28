@@ -1,12 +1,13 @@
 \chapter{Descrição das Atividades Realizadas}
 \label{cap:atividades}
 
-Este projeto tem como objetivo remover a funcionalidade de onboarding de clientes no ERP
+Este projeto tem como objetivo remover as funcionalidades de elaboração de propostas para 
+aquisição de cartões e a atualização dos dados dos solicitantes dessas propostas no ERP
 do contratante do projeto, buscando simplificar a arquitetura do sistema. 
 Atualmente, essa funcionalidade inclui integrações com birôs externos para 
 verificar se o score de inadimplência do cliente está dentro do intervalo tolerado, 
-além de uma integração com uma IDTech para validar a identificação do cliente 
-durante o processo de onboarding, que envolve a captura de selfie e dos documentos 
+além de uma integração com uma IDTech para validar a identificação do cliente, 
+que envolve a captura de selfie e dos documentos 
 de identificação, bem como a sincronização da base de dados  de clientes com a 
 processadora do cartão.
 
@@ -129,7 +130,7 @@ existência de um cadastro associado ao cliente. Se o cadastro for encontrado,
 os dados da proposta são encaminhadas para a fila de atualização. 
 Caso contrário, os dados da proposta é enviada para a fila de cadastro.
 
-O sistema de ERP, ao receber a mensagem da fila, 
+O ERP, ao receber a mensagem da fila, 
 processa a solicitação, realizando o cadastro completo do
 cliente ou a atualização dos dados existentes, vinculando à conta ao tipo de 
 cadastro fatura. Ao atualizar os dados de um cliente com múltiplas contas, 
@@ -154,11 +155,11 @@ dos dados do contrante do projeto para a processadora do cartão.
 
 A rotina de inativação é um microsserviço que foi implementado utilizando o 
 framework SpringBootWeb aderindo ao padrão MVC, que tem como objetivo bloquear 
-clientes que estão a mais de 12 meses sem comprar no cartão de crédito.
+clientes que estão a 12 meses sem comprar no cartão de crédito.
 
 A \autoref{fluxo-rotina-inativacao} ilustra o diagrama de fluxo do microsserviço 
 de rotina de inativação, detalhando as três etapas principais desse processo: 
-download de arquivo com clientes que devem ser bloqueado, verificação dos status 
+download de arquivo com clientes que devem ser bloqueados, verificação dos status 
 da conta na processadora do cartão e, por fim, o bloqueio do cliente. A seguir, 
 cada uma dessas etapas será descrita em detalhes, evidenciando a lógica e as 
 interações entre os componentes do sistema. 

@@ -1,20 +1,20 @@
 # Fdb version 4
-["bibtex principal"] 1734647081.80602 "principal.aux" "principal.bbl" "principal" 1734647090.54657 0
+["bibtex principal"] 1735395526.62701 "principal.aux" "principal.bbl" "principal" 1735395609.57999 0
   "./arquivos/referencias.bib" 1729946049.80849 2467 0ee75eaabdddf276c8ea712ec82a7d24 ""
   "/usr/local/texlive/2024/texmf-dist/bibtex/bib/abntex2/abntex2-options.bib" 1357081713 5396 4eb260dac60f150ae608d45252853090 ""
   "/usr/local/texlive/2024/texmf-dist/bibtex/bst/abntex2/abntex2-alf.bst" 1543183680 60064 0819ac8568f9a482510a46e3a8a6f605 ""
-  "principal.aux" 1734647089.06312 16727 a26587a5fa663ad65344bb355380eecf "pdflatex"
+  "principal.aux" 1735395608.25495 16558 9afb0ac65de192e62c928746ea80882c "pdflatex"
   (generated)
   "principal.bbl"
   "principal.blg"
   (rewritten before read)
-["makeindex principal.idx"] 1729555983.63852 "principal.idx" "principal.ind" "principal" 1734647090.54634 0
-  "principal.idx" 1734647086.99139 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex principal.idx"] 1729555983.63852 "principal.idx" "principal.ind" "principal" 1735395609.57976 0
+  "principal.idx" 1735395605.92709 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "principal.ilg"
   "principal.ind"
   (rewritten before read)
-["pdflatex"] 1734647082.28739 "principal.tex" "principal.pdf" "principal" 1734647090.54685 0
+["pdflatex"] 1735395600.44138 "principal.tex" "principal.pdf" "principal" 1735395609.58027 0
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -337,7 +337,7 @@
   "/usr/local/texlive/2024/texmf-dist/tex/latex/xkeyval/xkeyval.sty" 1655411236 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/xpatch/xpatch.sty" 1585258158 8314 7803f78066c4f9d008405191a4b43073 ""
   "/usr/local/texlive/2024/texmf-dist/web2c/texmf.cnf" 1727217670 42021 a58d36c7ede3d2fc9f93da62d691ddff ""
-  "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1734554243 5485709 8129e419010b46b234085a26866cdb87 ""
+  "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1734735275 5485709 8129e419010b46b234085a26866cdb87 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1731180373 3342964 f1e10e12e54fe5409f0bb37304c0bece ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
   "arquivos/0-setup.tex" 1729554960.43704 8880 7db4e5b2b6a3341823f8a46321fca961 ""
@@ -348,19 +348,19 @@
   "arquivos/imagens/Cadastro-Atualizacao-fluxo.jpg" 1730372591.38715 103966 6fce41c799935a4224d6ff74752891b5 ""
   "arquivos/imagens/fluxo-rotina-inativacao.jpg" 1730456384.90464 117331 a1f6d64a8d5d0951a37f57e6f475275b ""
   "arquivos/imagens/onboarding-fluxo.jpg" 1729948680.54604 122542 0c0cde0fc14c7c9dc3e74fb5276ca9eb ""
-  "capitulos/1-introducao.tex" 1734645914.88634 3749 4a34173ebb5a1ee2ea67a017a29bb469 ""
-  "capitulos/2-fundamentacao.tex" 1734646687.71769 7295 7b624b0d3bfbd41b89793a6e68eb3888 ""
-  "capitulos/3-atividades.tex" 1734647063.65343 11239 93908c28e0b8583058d08e6b576091e7 ""
-  "capitulos/4-resultados.tex" 1701735522 140 954083e2da656b902a9bc19314f01560 ""
-  "capitulos/5-conclusoes.tex" 1701735522 169 151e21d579ce28d09286018b3faedfa5 ""
+  "capitulos/1-introducao.tex" 1735390606.02136 3849 57844f9d42bc0beed9e014a19a2216c4 ""
+  "capitulos/2-fundamentacao.tex" 1735252116.51395 7314 435c4612ab0ae3dbf4da087e3008efef ""
+  "capitulos/3-atividades.tex" 1735252947.59559 11285 8e3176c6a1bf801b7ff666719560eec6 ""
+  "capitulos/4-resultados.tex" 1735390415.07334 1916 78fd6642a261c74b67f6c384dde401c0 ""
+  "capitulos/5-conclusoes.tex" 1735395595.60339 1325 e8df5883fa84076160abf53b474370b9 ""
   "imagens/IFPB.png" 1701735522 23679 7bc6f199384965617b6a3faabec23029 ""
-  "principal.aux" 1734647089.06312 16727 a26587a5fa663ad65344bb355380eecf "pdflatex"
-  "principal.bbl" 1734647082.25593 2721 e9175d589c92efa32616d471df2b1f47 "bibtex principal"
-  "principal.brf" 1734647089.08518 497 deb3eb035c6e807ff176a0a6af24a776 "pdflatex"
+  "principal.aux" 1735395608.25495 16558 9afb0ac65de192e62c928746ea80882c "pdflatex"
+  "principal.bbl" 1735395527.1833 2721 e9175d589c92efa32616d471df2b1f47 "bibtex principal"
+  "principal.brf" 1735395608.27166 497 deb3eb035c6e807ff176a0a6af24a776 "pdflatex"
   "principal.ind" 1729555983.8947 0 d41d8cd98f00b204e9800998ecf8427e "makeindex principal.idx"
-  "principal.lof" 1734647089.08704 492 ffde9524a019329ee168e517ca8fc4f1 "pdflatex"
+  "principal.lof" 1735395608.27376 492 ffde9524a019329ee168e517ca8fc4f1 "pdflatex"
   "principal.tex" 1729555961.04473 9460 cc31f6615c0c4c1eae35ae3e09a4f0f1 ""
-  "principal.toc" 1734647089.08726 3043 eef855ed256c28015e8df898a89f7af5 "pdflatex"
+  "principal.toc" 1735395608.27394 2991 a6aa34cc0de9fa5c585a6fe7310c2d9d "pdflatex"
   (generated)
   "principal.aux"
   "principal.brf"

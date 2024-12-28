@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.9)  19 DEC 2024 19:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.9)  28 DEC 2024 11:20
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1996,13 +1996,13 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 [13]) (./capitulos/3-atividades.tex
 
 [14]
-<arquivos/imagens/Arquitetura-relatório-estágio.png, id=183, 876.27374pt x 
+<arquivos/imagens/Arquitetura-relatório-estágio.png, id=181, 876.27374pt x 
 611.28375pt>
 File: arquivos/imagens/Arquitetura-relatório-estágio.png Graphic file (type
  png)
 <use arquivos/imagens/Arquitetura-relatório-estágio.png>
 Package pdftex.def Info: arquivos/imagens/Arquitetura-relatório-estágio.png
-  used on input line 25.
+  used on input line 26.
 (pdftex.def)             Requested size: 455.0pt x 317.41234pt.
 
 
@@ -2011,31 +2011,31 @@ Package pdftex.def Info: arquivos/imagens/Arquitetura-relatório-estágio.png
  <./arquivos/imagens/Arquitetura-relatório-estágio.png>]
 
 [16]
-<arquivos/imagens/onboarding-fluxo.jpg, id=200, 1363.0925pt x 737.75626pt>
+<arquivos/imagens/onboarding-fluxo.jpg, id=198, 1363.0925pt x 737.75626pt>
 File: arquivos/imagens/onboarding-fluxo.jpg Graphic file (type jpg)
 <use arquivos/imagens/onboarding-fluxo.jpg>
 Package pdftex.def Info: arquivos/imagens/onboarding-fluxo.jpg  used on input l
-ine 77.
+ine 78.
 (pdftex.def)             Requested size: 455.0pt x 246.26337pt.
 
 
 [17 <./arquivos/imagens/onboarding-fluxo.jpg>]
-<arquivos/imagens/Cadastro-Atualizacao-fluxo.jpg, id=206, 1553.805pt x 647.4187
+<arquivos/imagens/Cadastro-Atualizacao-fluxo.jpg, id=204, 1553.805pt x 647.4187
 5pt>
 File: arquivos/imagens/Cadastro-Atualizacao-fluxo.jpg Graphic file (type jpg)
 <use arquivos/imagens/Cadastro-Atualizacao-fluxo.jpg>
 Package pdftex.def Info: arquivos/imagens/Cadastro-Atualizacao-fluxo.jpg  used 
-on input line 104.
+on input line 105.
 (pdftex.def)             Requested size: 455.0pt x 189.58408pt.
 
 
 [18 <./arquivos/imagens/Cadastro-Atualizacao-fluxo.jpg>]
-<arquivos/imagens/fluxo-rotina-inativacao.jpg, id=215, 1773.62625pt x 567.11874
+<arquivos/imagens/fluxo-rotina-inativacao.jpg, id=213, 1773.62625pt x 567.11874
 pt>
 File: arquivos/imagens/fluxo-rotina-inativacao.jpg Graphic file (type jpg)
 <use arquivos/imagens/fluxo-rotina-inativacao.jpg>
 Package pdftex.def Info: arquivos/imagens/fluxo-rotina-inativacao.jpg  used on 
-input line 169.
+input line 170.
 (pdftex.def)             Requested size: 455.0pt x 145.48303pt.
 
 
@@ -2079,19 +2079,19 @@ Package rerunfilecheck Info: File `principal.brf' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  69241 strings out of 473362
- 1674517 string characters out of 5720984
+ 1674511 string characters out of 5720984
  2620593 words of memory out of 5000000
- 91076 multiletter control sequences out of 15000+600000
- 606287 words of font info for 232 fonts, out of 8000000 for 9000
+ 91074 multiletter control sequences out of 15000+600000
+ 606414 words of font info for 234 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  104i,13n,136p,1006b,1327s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/lo
 cal/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texliv
 e/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on principal.pdf (24 pages, 690539 bytes).
+Output written on principal.pdf (24 pages, 693229 bytes).
 PDF statistics:
- 399 PDF objects out of 1000 (max. 8388607)
- 356 compressed objects within 4 object streams
- 95 named destinations out of 1000 (max. 500000)
- 50990 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 394 PDF objects out of 1000 (max. 8388607)
+ 351 compressed objects within 4 object streams
+ 94 named destinations out of 1000 (max. 500000)
+ 50982 words of extra memory for PDF output out of 51595 (max. 10000000)
 
