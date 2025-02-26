@@ -1,15 +1,17 @@
 \chapter{Descrição das Atividades Realizadas}
 \label{cap:atividades}
 
-Este projeto tem como objetivo remover as funcionalidades de elaboração de propostas para 
-aquisição de cartões e a atualização dos dados dos solicitantes dessas propostas no ERP
-do contratante do projeto, buscando simplificar a arquitetura do sistema. 
-Atualmente, essa funcionalidade inclui integrações com birôs externos para 
-verificar se o score de inadimplência do cliente está dentro do intervalo tolerado, 
-além de uma integração com uma IDTech para validar a identificação do cliente, 
-que envolve a captura de selfie e dos documentos 
-de identificação, bem como a sincronização da base de dados  de clientes com a 
-processadora do cartão.
+Este projeto tem como objetivo migrar as funcionalidades de elaboração de propostas para 
+aquisição e desbloqueio de cartões de crédito no ERP
+do contratante do projeto, para um ecossistema de microsserviços buscando simplificar 
+a arquitetura do sistema. Atualmente, essa funcionalidade inclui integrações com 
+birôs externos para verificar se o score de inadimplência do cliente está dentro do 
+intervalo tolerado, além de uma integração com uma IDTech para validar a identificação 
+do cliente, que envolve a captura de selfie e dos documentos de identificação, bem 
+como a sincronização da base de dados  de clientes com a processadora do cartão que é 
+uma empresa que atua como intermediária entre o estabelecimento comercial, 
+o cliente e as instituições financeiras, viabilizando transações com cartões de 
+crédito e débito.
 
 Para atender a essas necessidades e simplificar a arquitetura do sistema, 
 foi elaborada uma solução baseada em microsserviços. 
@@ -23,7 +25,7 @@ função e como interagem entre si.
 \begin{figure} [!h]
     \centering
     \caption{Arquitetura do projeto}
-    \includegraphics[width=1\textwidth]{arquivos/imagens/Arquitetura-relatório-estágio.png}
+    \includegraphics[width=1\textwidth]{arquivos/imagens/arquitetura-relatorio-estagio.pdf}
     \label{arquitetura-projeto}
     \legend{Fonte: próprio autor }
 \end{figure}
@@ -32,7 +34,7 @@ função e como interagem entre si.
 
 Microsserviço cuja finalidade é atuar como um broker, que é um  
 componente centralizado que gerencia a comunicação entre diferentes partes do sistema \cite{distributed:systems:book}. 
-Seguindo esse conceito, o broker funcionará como intermediador na comunicação entre os 
+Seguindo esse conceito, o broker atua como intermediador na comunicação entre os 
 serviços internos e a processadora do cartão, que é um serviço externo. 
 Esse microsserviço é essencial para o ecossistema, pois evita a duplicação de 
 configurações de integração nos microsserviços que dependem dos dados da processadora 
@@ -40,13 +42,15 @@ de cartão.
 
 \section{Onboarding}
 
-O onboarding é um microsserviço que foi implementado utilizando SpringBootWeb aderindo ao padrão MVC, disponibilizando 
+O onboarding é um microsserviço que foi implementado utilizando SpringBoot aderindo ao padrão MVC, disponibilizando 
 uma API que visa informar o fluxo de crédito que o cliente deve seguir quando solicita um cartão, 
 que são respectivamente: 
-\begin{enumerate}
-    \item \textbf{Nova proposta}: Quando o cliente não possui inadimplências, carnê ou cheque e não possui o cartão informado. 					
-    \item \textbf{Reanálise de crédito}: Quando o cliente possui o cartão, porém está bloqueado por inatividade de compras por 12 meses.
-    \item \textbf{Reprovado}: caso possua inadimplências, carnê ou cheque, ou possua o cartão ativo, ou possua o cartão bloqueado, porém o tipo de bloqueio diferente de inativação. 
+\begin{enumerate} 
+    \item \textbf{Nova proposta}: Quando o cliente não possui inadimplências, carnê ou cheque e não possui o cartão 
+    informado. 					
+    \item \textbf{Reanálise de crédito}: Quando o cliente possui o cartão, porém está bloqueado por inatividade de 
+    compras por 12 meses.
+    \item \textbf{Reprovado}: Quando não atende os critérios dos fluxos de crédito descritos acima.
 \end{enumerate}
 
 A \autoref{fluxo-onboarding} ilustra o diagrama de fluxo do microsserviço de onboarding de clientes, detalhando as 
@@ -54,27 +58,27 @@ quatro etapas principais desse processo: captação de proposta, verificação d
 inadimplências, consulta à processadora de cartão e tomada de decisão final. 
 A seguir, cada uma dessas etapas será descrita em detalhes, evidenciando a lógica e as interações entre os componentes do sistema.
 
-Após o solicitante da proposta informar o \textbf{cpf} e o \textbf{cartão desejado} no 
+Após o solicitante da proposta informar o \textbf{CPF} e o \textbf{cartão desejado} no 
 \textbf{sistema de captação de proposta}, essas informações são
 encaminhadas ao microsserviço de \textbf{onboarding}. Este, por sua vez, 
-consulta o banco de dados do contrante do projeto para verificar a existência de 
-pendências financeiras a partir do cpf. 
+consulta o banco de dados do contratante  do projeto para verificar a existência de 
+pendências financeiras a partir do CPF. 
 
 Caso sejam identificadas inadimplências, o \textbf{sistema de captação de proposta} é notificado para reprovar a proposta.
-Se o cliente estiver em dia com suas obrigações, o \textbf{onboarding} realiza uma consulta ao broker utilizando o \textbf{cpf} do cliente. 
+Se o cliente estiver em dia com suas obrigações, o \textbf{onboarding} realiza uma consulta ao broker utilizando o \textbf{CPF} do cliente. 
 
-O \textbf{broker}, atuando como intermediário, encaminha essa solicitação à \textbf{processadora de cartão},
-que retorna as informações cadastrais do cliente. Com os dados obtidos, o \textbf{onboarding} verifica se o cliente já possui o cartão solicitado.
+O \textbf{broker}, atuando como intermediário, encaminha essa solicitação à \textbf{processadora do cartão},
+que retorna as informações cadastrais do cliente. Com os dados obtidos, o \textbf{onboarding} verifica se o cliente possui o cartão solicitado.
 
 Caso o cliente ainda não possua o cartão, o \textbf{sistema de captação de proposta} é notificado para seguir o 
-fluxo de nova proposta. No entanto, se o cliente já possui o cartão, 
+fluxo de nova proposta. No entanto, se o cliente possui o cartão, 
 o \textbf{onboarding} verifica o status da conta. Se a conta estiver inativa o 
 \textbf{sistema de captação de proposta} é notificado para seguir o fluxo de reanálise de crédito. 
-Caso contrário, \textbf{sistema de captação de proposta} é notificado para reprovar a proposta.
+Caso contrário, o \textbf{sistema de captação de proposta} é notificado para reprovar a proposta.
 
 \begin{figure}
     \centering
-    \caption{fluxo do onboarding}
+    \caption{Fluxo do onboarding}
     \includegraphics[width=1\textwidth]{arquivos/imagens/onboarding-fluxo.jpg}
     \label{fluxo-onboarding}
     \legend{Fonte: próprio autor }
@@ -82,26 +86,24 @@ Caso contrário, \textbf{sistema de captação de proposta} é notificado para r
 
 O microsserviço de onboarding desempenha um papel crucial na gestão de riscos e na otimização da carteira de clientes. 
 Ao impedir a concessão de crédito a indivíduos com histórico de inadimplência, a empresa minimiza o risco de 
-inadimplências futuras, protegendo seu patrimônio. Além disso, o sistema incentiva a aquisição do cartão de crédito 
-pela loja, desestimulando o uso de outras formas de pagamento, como o carnê, o que contribui para o aumento da 
-rentabilidade e da fidelização dos clientes.
+inadimplências futuras, protegendo seu patrimônio.
 
-\section{Cadastro/Atualização de cliente}
+\section{Cadastro ou Atualização de cliente}
 
-O cadastro/atualização de cliente é um microsserviço, que foi implementado utilizando framework SpringBootWeb e 
-seguindo a arquitetura MVC, disponibilizando uma API responsável por processar as propostas aprovadas e encaminhar 
+O cadastro ou atualização de cliente é um microsserviço, que foi implementado utilizando o framework SpringBoot aderindo 
+à arquitetura MVC, disponibilizando uma API responsável por processar as propostas aprovadas e encaminhar 
 os dados do cliente para um processo de cadastro de nova conta ou atualização dos dados na base de dados do 
-contrante do projeto.
+contratante  do projeto.
 
-A \autoref{fluxo-Cadastro-Atualizacao} ilustra o diagrama de fluxo do microsserviço de cadastro/atualização de cliente, 
-detalhando as três etapas principais desse processo: recepção de propostas aprovadas, validação e 
-atualização dos dados do cliente e, por fim, o armazenamento das informações no banco de dados. 
-A seguir, cada uma dessas etapas será descrita em detalhes, evidenciando a lógica e as interações entre os 
-componentes do sistema. 
+A \autoref{fluxo-Cadastro-Atualizacao} ilustra o diagrama de fluxo do microsserviço de cadastro ou atualização de cliente, 
+detalhando as quatro etapas principais desse processo: recepção das propostas aprovadas, decisão de nova conta ou 
+atualização de conta na base de dados, decisão da conta prioritária e, por fim, o armazenamento no banco de dados. 
+A seguir, cada uma dessas etapas será descrita em detalhes, evidenciando a lógica e as integrações entre os componentes 
+do sistema. 
 
 \begin{figure} [!h]
     \centering
-    \caption{fluxo do cadastro/atualização de cliente}
+    \caption{Fluxo do cadastro ou atualização de cliente}
     \includegraphics[width=1\textwidth]{arquivos/imagens/Cadastro-Atualizacao-fluxo.jpg}
     \label{fluxo-Cadastro-Atualizacao}
     \legend{Fonte: próprio autor }
@@ -125,9 +127,9 @@ Para a aprovação da proposta, é necessário passar por duas etapas:
 \end{enumerate}
 
 Após a aprovação, os dados da proposta são enviados ao microsserviço de 
-cadastro/atualização. O microsserviço consulta a base de dados para verificar a 
+cadastro ou atualização. O microsserviço consulta a base de dados para verificar a 
 existência de um cadastro associado ao cliente. Se o cadastro for encontrado, 
-os dados da proposta são encaminhadas para a fila de atualização. 
+os dados da proposta são encaminhados para a fila de atualização. 
 Caso contrário, os dados da proposta é enviada para a fila de cadastro.
 
 O ERP, ao receber a mensagem da fila, 
@@ -136,26 +138,20 @@ cliente ou a atualização dos dados existentes, vinculando à conta ao tipo de
 cadastro fatura. Ao atualizar os dados de um cliente com múltiplas contas, 
 o sistema escolhe a conta com o tipo de cadastro que deve ser priorizada para 
 o processo de atualização descartando as outras na seguinte ordem: 
-fatura, carnê e por último cheque ou cartão de crédito/vista(não pertence ao contrante do projeto).
+fatura, carnê e por último cheque ou cartão de crédito/vista (não pertence ao contratante  do projeto).
 
-O microsserviço de cadastro/atualização desempenha um papel crucial na manutenção 
+O microsserviço de cadastro ou atualização de cliente desempenha um papel crucial na manutenção 
 da integridade dos dados do cliente, evitando a duplicidade de contas e indicando 
-ao ERP qual a ação a ser tomada: cadastro ou atualização. Essa integração com o ERP permite a migração  de contas de outros tipos de 
-pagamento (carnê, cheque, cartão de crédito/vista) para o cartão próprio do 
+ao ERP qual ação deve ser tomada: cadastro ou atualização da conta. Essa integração com o ERP permite a migração  de contas de 
+outros tipos de pagamento (carnê, cheque, cartão de crédito/vista) para o cartão próprio do 
 contratante do projeto. 
 
-Essa migração oferece benefícios ao contratante 
-do projeto, como: maior comodidade na gestão de pagamentos, disponibilizar 
-benefícios exclusivos ao uso do cartão, ofertar programas de pontuação e 
-condições especiais, fortalecendo assim o vínculo com a empresa e aumentando a 
-probabilidade de novas aquisições. Além de \textbf{transferir} a responsabilidade da gestão 
-dos dados do contrante do projeto para a processadora do cartão.
 
 \section{Rotina de inativação de cliente}
 
-A rotina de inativação é um microsserviço que foi implementado utilizando o 
-framework SpringBootWeb aderindo ao padrão MVC, que tem como objetivo bloquear 
-clientes que estão a 12 meses sem comprar no cartão de crédito.
+A rotina de inativação de cliente é um microsserviço que foi implementado utilizando o 
+framework SpringBoot aderindo ao padrão MVC, cujo objetivo é bloquear 
+clientes que estão há 12 meses sem comprar no cartão de crédito.
 
 A \autoref{fluxo-rotina-inativacao} ilustra o diagrama de fluxo do microsserviço 
 de rotina de inativação, detalhando as três etapas principais desse processo: 
@@ -166,7 +162,7 @@ interações entre os componentes do sistema.
 
 \begin{figure} [!h]
     \centering
-    \caption{fluxo da rotina de inativação}
+    \caption{Fluxo da rotina de inativação}
     \includegraphics[width=1\textwidth]{arquivos/imagens/fluxo-rotina-inativacao.jpg}
     \label{fluxo-rotina-inativacao}
     \legend{Fonte: próprio autor }
@@ -174,7 +170,7 @@ interações entre os componentes do sistema.
 
 O microsserviço de rotina de inativação disponibiliza um job diário agendado às 
 00:00 a fim de baixar um arquivo CSV com uma lista de clientes que devem ser 
-bloqueados com o tipo de bloqueio de inativação há mais de 12 meses sem compras no 
+bloqueados com o tipo de bloqueio de inativação há 12 meses sem compras no 
 servidor SFTP. 
 
 Para cada cliente na lista, o job consulta o broker para obter as informações sobre 
@@ -183,7 +179,7 @@ conta esteja ativa, o job envia uma solicitação ao broker para bloquear a cont
 que por sua vez encaminha para a processadora do cartão.
 
 O microsserviço de rotina de inativação desempenha um papel importante para a 
-manutenção  do processo de reanálise de crédito no sistema de captação de proposta, 
+manutenção do processo de reanálise de crédito no sistema de captação de proposta, 
 pois esse processo só ocorre em clientes com bloqueio de inativação de 12 meses. 
 Permitindo também identificar clientes inativos, a fim de analisar o seu comportamento,
 possibilitando a criação de programas de incentivo personalizados para estimular 

@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.9)  28 DEC 2024 11:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.17)  26 FEB 2025 20:21
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
 **principal.tex
 (./principal.tex
-LaTeX2e <2024-11-01>
-L3 programming layer <2024-11-02>
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
 (./arquivos/0-setup.tex
 (/usr/local/texlive/2024/texmf-dist/tex/latex/abntex2/abntex2.cls
 Document Class: abntex2 2018/11/24 v-1.9.7 abnTeX2
@@ -17,7 +17,7 @@ Document Class: memoir 2024/01/26 v3.8.2 configurable book, report, article doc
 ument class
 (/usr/local/texlive/2024/texmf-dist/tex/latex/xpatch/xpatch.sty
 (/usr/local/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2024-11-02 L3 programming layer (loader) 
+Package: expl3 2025-01-18 L3 programming layer (loader) 
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
@@ -30,7 +30,7 @@ Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
 Package: xparse 2024-08-16 L3 Experimental document command parser
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count197
 ))
 \onelineskip=\skip49
@@ -521,11 +521,11 @@ File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO
 \BKM@id=\count334
 ))
 (/usr/local/texlive/2024/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2024/11/30 v24.14 The multilingual framework for pdfLaTeX, LuaLa
-TeX and XeLaTeX
+Package: babel 2025/02/14 v25.4 The multilingual framework for pdfLaTeX, LuaLaT
+eX and XeLaTeX
 \babel@savecnt=\count335
 \U@D=\dimen190
-\l@unhyphenated=\language89
+\l@unhyphenated=\language90
 
 (/usr/local/texlive/2024/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read3
@@ -536,14 +536,14 @@ Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
 (babel)             (\language0). Reported on input line 102.
 Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
-(babel)             (\language23). Reported on input line 105.
+(babel)             (\language24). Reported on input line 105.
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
-(babel)             (\language23). Reported on input line 108.
+(babel)             (\language24). Reported on input line 108.
 )
 (/usr/local/texlive/2024/texmf-dist/tex/generic/babel-portuges/brazil.ldf
 Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
 Package babel Info: Hyphen rules for 'brazil' set to \l@portuguese
-(babel)             (\language72). Reported on input line 111.
+(babel)             (\language73). Reported on input line 111.
 Package babel Info: Making " an active character on input line 143.
 ))
 (/usr/local/texlive/2024/texmf-dist/tex/generic/babel/locale/en/babel-english.t
@@ -551,7 +551,7 @@ ex
 Package babel Info: Importing font and identification data for english
 (babel)             from babel-en.ini. Reported on input line 11.
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/enumitem/enumitem.sty
-Package: enumitem 2019/06/20 v3.9 Customized lists
+Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip192
 \enit@outerparindent=\dimen191
 \enit@toks=\toks25
@@ -712,7 +712,7 @@ File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
 (/usr/local/texlive/2024/texmf-dist/tex/latex/acronym/acronym.sty
-Package: acronym 2024/03/30 v1.49 Support for acronyms (Tobias Oetiker)
+Package: acronym 2025/01/17 v1.50 Support for acronyms (Tobias Oetiker)
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/bigfoot/suffix.sty
 Package: suffix 2006/07/15 1.5a Variant command support
@@ -761,14 +761,14 @@ File: csquotes.cfg
 \cftquadronumwidth=\skip260
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/lastpage/lastpage.sty
-Package: lastpage 2024/11/24 v2.1d lastpage: 2.09 or 2e? (HMM)
+Package: lastpage 2025/01/27 v2.1e lastpage: 2.09 or 2e? (HMM)
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/lastpage/lastpage2e.sty
-Package: lastpage2e 2024/11/24 v2.1d Decide which 2e lastpage version to use (H
+Package: lastpage2e 2025/01/27 v2.1e Decide which 2e lastpage version to use (H
 MM)
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/lastpage/lastpagemodern.sty
-Package: lastpagemodern 2024-11-24 v2.1d Refers to last page's name (HMM; JPG)
+Package: lastpagemodern 2025-01-27 v2.1e Refers to last page's name (HMM; JPG)
 \c@lastpagecount=\count363
 ) 
 )) (/usr/local/texlive/2024/texmf-dist/tex/latex/tools/indentfirst.sty
@@ -789,22 +789,23 @@ Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 \Gin@req@width=\dimen195
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/microtype.sty
-Package: microtype 2024/12/12 v3.2 Micro-typographical refinements (RS)
+Package: microtype 2025/02/11 v3.2a Micro-typographical refinements (RS)
 \MT@toks=\toks30
 \MT@tempbox=\box60
 \MT@count=\count364
-LaTeX Info: Redefining \noprotrusionifhmode on input line 1075.
-LaTeX Info: Redefining \leftprotrusion on input line 1076.
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1087.
+LaTeX Info: Redefining \leftprotrusion on input line 1088.
 \MT@prot@toks=\toks31
-LaTeX Info: Redefining \rightprotrusion on input line 1095.
-LaTeX Info: Redefining \textls on input line 1437.
+LaTeX Info: Redefining \rightprotrusion on input line 1107.
+LaTeX Info: Redefining \textls on input line 1449.
 \MT@outer@kern=\dimen196
-LaTeX Info: Redefining \microtypecontext on input line 2041.
-LaTeX Info: Redefining \textmicrotypecontext on input line 2058.
+LaTeX Info: Redefining \microtypecontext on input line 2053.
+LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
 \MT@listname@count=\count365
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/microtype-pdftex.def
-File: microtype-pdftex.def 2024/12/12 v3.2 Definitions specific to pdftex (RS)
+File: microtype-pdftex.def 2025/02/11 v3.2a Definitions specific to pdftex (RS)
+
 LaTeX Info: Redefining \lsstyle on input line 944.
 LaTeX Info: Redefining \lslig on input line 944.
 \MT@outer@space=\skip261
@@ -812,9 +813,9 @@ LaTeX Info: Redefining \lslig on input line 944.
 Package microtype Info: Loading configuration file microtype.cfg.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/microtype.cfg
-File: microtype.cfg 2024/12/12 v3.2 microtype main configuration file (RS)
+File: microtype.cfg 2025/02/11 v3.2a microtype main configuration file (RS)
 )
-LaTeX Info: Redefining \microtypesetup on input line 3053.
+LaTeX Info: Redefining \microtypesetup on input line 3065.
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2024/11/05 v2.17t AMS math features
@@ -1300,7 +1301,7 @@ Package caption Info: hyperref package is loaded.
 \sf@bottom=\skip272
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/pdfpages/pdfpages.sty
-Package: pdfpages 2024/10/28 v0.6c Insert pages of external PDF documents (AM)
+Package: pdfpages 2025/01/30 v0.6e Insert pages of external PDF documents (AM)
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
@@ -1312,7 +1313,7 @@ Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
 \AM@fboxrule=\dimen337
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/pdfpages/pppdftex.def
-File: pppdftex.def 2024/10/28 v0.6c Pdfpages driver for pdfTeX (AM)
+File: pppdftex.def 2025/01/30 v0.6e Pdfpages driver for pdfTeX (AM)
 )
 \pdfpages@includegraphics@status=\count416
 \AM@pagebox=\box74
@@ -1454,8 +1455,8 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@floatcapt=\box78
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/circuitikz/circuitikz.sty
-Package: circuitikz 2024/08/03{} The CircuiTikz circuit drawing package version
- 1.7.0
+Package: circuitikz 2025/01/10{} The CircuiTikz circuit drawing package version
+ 1.7.1
 
 (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarycalc.code.tex
@@ -1531,7 +1532,7 @@ x) (/usr/local/texlive/2024/texmf-dist/tex/generic/circuitikz/pgfcirclabel.tex)
 (/usr/local/texlive/2024/texmf-dist/tex/generic/circuitikz/pgfcirccurrent.tex)
 (/usr/local/texlive/2024/texmf-dist/tex/generic/circuitikz/pgfcircflow.tex))
 (/usr/local/texlive/2024/texmf-dist/tex/latex/siunitx/siunitx.sty
-Package: siunitx 2024-12-06 v3.4.0 A comprehensive (SI) units package
+Package: siunitx 2025-01-21 v3.4.4 A comprehensive (SI) units package
 \l__siunitx_number_uncert_offset_int=\count431
 \l__siunitx_number_exponent_fixed_int=\count432
 \l__siunitx_number_min_decimal_int=\count433
@@ -1948,103 +1949,101 @@ l.106
 
 [3
 
+
 ]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
+81.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
 
 [4
-
 
 ]
 
 [5
 
-]
+] (./principal.lof)
 
 [6
 
-] (./principal.lof)
-
-[7
-
 ]
 
-[8
+[7
 
 
 ] (./principal.toc)
 
-[9
+[8
 
 ]) (./capitulos/1-introducao.tex
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 3
-9.
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-
-[10
+[9
 
 
 ]) (./capitulos/2-fundamentacao.tex
 
-[11]
+[10]
 
-[12
+[11
 
 ]
 
-[13]) (./capitulos/3-atividades.tex
+[12]) (./capitulos/3-atividades.tex
 
-[14]
-<arquivos/imagens/Arquitetura-relatório-estágio.png, id=181, 876.27374pt x 
-611.28375pt>
-File: arquivos/imagens/Arquitetura-relatório-estágio.png Graphic file (type
- png)
-<use arquivos/imagens/Arquitetura-relatório-estágio.png>
-Package pdftex.def Info: arquivos/imagens/Arquitetura-relatório-estágio.png
-  used on input line 26.
-(pdftex.def)             Requested size: 455.0pt x 317.41234pt.
+[13]
+<arquivos/imagens/arquitetura-relatorio-estagio.pdf, id=175, 792.21257pt x 566.
+33334pt>
+File: arquivos/imagens/arquitetura-relatorio-estagio.pdf Graphic file (type pdf
+)
+<use arquivos/imagens/arquitetura-relatorio-estagio.pdf>
+Package pdftex.def Info: arquivos/imagens/arquitetura-relatorio-estagio.pdf  us
+ed on input line 28.
+(pdftex.def)             Requested size: 455.0pt x 325.2762pt.
 
 
-[15
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
- <./arquivos/imagens/Arquitetura-relatório-estágio.png>]
 
-[16]
-<arquivos/imagens/onboarding-fluxo.jpg, id=198, 1363.0925pt x 737.75626pt>
+
+[14
+
+]
+
+[15 <./arquivos/imagens/arquitetura-relatorio-estagio.pdf>]
+<arquivos/imagens/onboarding-fluxo.jpg, id=206, 1363.0925pt x 737.75626pt>
 File: arquivos/imagens/onboarding-fluxo.jpg Graphic file (type jpg)
 <use arquivos/imagens/onboarding-fluxo.jpg>
 Package pdftex.def Info: arquivos/imagens/onboarding-fluxo.jpg  used on input l
-ine 78.
+ine 82.
 (pdftex.def)             Requested size: 455.0pt x 246.26337pt.
-
-
-[17 <./arquivos/imagens/onboarding-fluxo.jpg>]
-<arquivos/imagens/Cadastro-Atualizacao-fluxo.jpg, id=204, 1553.805pt x 647.4187
+<arquivos/imagens/Cadastro-Atualizacao-fluxo.jpg, id=208, 1553.805pt x 647.4187
 5pt>
 File: arquivos/imagens/Cadastro-Atualizacao-fluxo.jpg Graphic file (type jpg)
 <use arquivos/imagens/Cadastro-Atualizacao-fluxo.jpg>
 Package pdftex.def Info: arquivos/imagens/Cadastro-Atualizacao-fluxo.jpg  used 
-on input line 105.
+on input line 107.
 (pdftex.def)             Requested size: 455.0pt x 189.58408pt.
 
 
-[18 <./arquivos/imagens/Cadastro-Atualizacao-fluxo.jpg>]
-<arquivos/imagens/fluxo-rotina-inativacao.jpg, id=213, 1773.62625pt x 567.11874
+[16 <./arquivos/imagens/onboarding-fluxo.jpg>]
+
+[17 <./arquivos/imagens/Cadastro-Atualizacao-fluxo.jpg>]
+<arquivos/imagens/fluxo-rotina-inativacao.jpg, id=220, 1773.62625pt x 567.11874
 pt>
 File: arquivos/imagens/fluxo-rotina-inativacao.jpg Graphic file (type jpg)
 <use arquivos/imagens/fluxo-rotina-inativacao.jpg>
 Package pdftex.def Info: arquivos/imagens/fluxo-rotina-inativacao.jpg  used on 
-input line 170.
+input line 166.
 (pdftex.def)             Requested size: 455.0pt x 145.48303pt.
+)
 
-
-[19 <./arquivos/imagens/fluxo-rotina-inativacao.jpg>])
+[18 <./arquivos/imagens/fluxo-rotina-inativacao.jpg>]
 (./capitulos/4-resultados.tex
 
-[20]) (./capitulos/5-conclusoes.tex
+[19]) (./capitulos/5-conclusoes.tex
 
-[21
+[20
 
 ]) (./arquivos/3-postextual.tex (./principal.bbl (./principal.brf)
 \tf@brf=\write7
@@ -2052,13 +2051,13 @@ input line 170.
 
 
 
-[22
+[21
 
 ]
 bibitemlist
 ))
 
-[23
+[22
 
 ]
 \tf@lof=\write8
@@ -2071,27 +2070,27 @@ bibitemlist
 enddocument/afterlastpage (AED): lastpage setting LastPage.
 (./principal.aux)
  ***********
-LaTeX2e <2024-11-01>
+LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `principal.brf' has not changed.
-(rerunfilecheck)             Checksum: DEB3EB035C6E807FF176A0A6AF24A776;497.
+(rerunfilecheck)             Checksum: 6590976CBF00362CF21B5AFC8F558C21;511.
  ) 
 Here is how much of TeX's memory you used:
- 69241 strings out of 473362
- 1674511 string characters out of 5720984
- 2620593 words of memory out of 5000000
- 91074 multiletter control sequences out of 15000+600000
- 606414 words of font info for 234 fonts, out of 8000000 for 9000
+ 69858 strings out of 473201
+ 1691707 string characters out of 5716120
+ 2644488 words of memory out of 5000000
+ 91828 multiletter control sequences out of 15000+600000
+ 612819 words of font info for 241 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 104i,13n,136p,1006b,1327s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 104i,12n,136p,1006b,1335s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/lo
 cal/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texliv
 e/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on principal.pdf (24 pages, 693229 bytes).
+Output written on principal.pdf (23 pages, 547382 bytes).
 PDF statistics:
- 394 PDF objects out of 1000 (max. 8388607)
- 351 compressed objects within 4 object streams
- 94 named destinations out of 1000 (max. 500000)
- 50982 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 399 PDF objects out of 1000 (max. 8388607)
+ 353 compressed objects within 4 object streams
+ 91 named destinations out of 1000 (max. 500000)
+ 55070 words of extra memory for PDF output out of 61914 (max. 10000000)
 

@@ -7,33 +7,33 @@
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase []{Introdução}}{10}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Objetivos}{10}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Korporate}{11}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Estrutura do Relatório}{11}{section.1.3}%
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase []{Introdução}}{9}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Objetivos}{9}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Korporate}{10}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Estrutura do Relatório}{10}{section.1.3}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase []{Fundamentação Teórica}}{12}{chapter.2}%
-\contentsline {section}{\numberline {2.1}UML}{12}{section.2.1}%
-\contentsline {section}{\numberline {2.2}SQL}{12}{section.2.2}%
-\contentsline {section}{\numberline {2.3}SpringBoot}{12}{section.2.3}%
-\contentsline {section}{\numberline {2.4}SpringBootWeb}{13}{section.2.4}%
-\contentsline {section}{\numberline {2.5}SpringWebFlux}{13}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Flyway}{13}{section.2.6}%
-\contentsline {section}{\numberline {2.7}SWT}{13}{section.2.7}%
-\contentsline {section}{\numberline {2.8}Metodologia}{14}{section.2.8}%
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase []{Fundamentação Teórica}}{11}{chapter.2}%
+\contentsline {section}{\numberline {2.1}UML}{11}{section.2.1}%
+\contentsline {section}{\numberline {2.2}SQL}{11}{section.2.2}%
+\contentsline {section}{\numberline {2.3}SpringBoot}{11}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}SpringBootWeb}{12}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}SpringWebFlux}{12}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}Flyway}{12}{section.2.4}%
+\contentsline {section}{\numberline {2.5}SWT}{12}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Metodologia}{13}{section.2.6}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Descrição das Atividades Realizadas}}{15}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Broker}{16}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Onboarding}{16}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Cadastro/Atualização de cliente}{17}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Rotina de inativação de cliente}{19}{section.3.4}%
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Descrição das Atividades Realizadas}}{14}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Broker}{14}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Onboarding}{14}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Cadastro ou Atualização de cliente}{16}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Rotina de inativação de cliente}{18}{section.3.4}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Resultados Obtidos}}{21}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Impacto nas Operações das Lojas}{21}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Alterações no Sistema ERP}{21}{section.4.2}%
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Resultados Obtidos}}{20}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Impacto nas Operações das Lojas}{20}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Alterações no Sistema ERP}{20}{section.4.2}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Considerações Finais}}{22}{chapter.5}%
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Considerações Finais}}{21}{chapter.5}%
 \vspace {\cftbeforechapterskip }
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias Bibliogr\'aficas}}{23}{section*.20}%
+\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias Bibliogr\'aficas}}{22}{section*.19}%
