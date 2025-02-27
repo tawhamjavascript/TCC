@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.17)  26 FEB 2025 20:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.17)  27 FEB 2025 20:27
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -353,7 +353,7 @@ Package: shortvrb 2024/10/23 v3.0q Standard LaTeX documentation package V3 (FMi
 \c@lastpage=\count317
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/textcase/textcase.sty
-Package: textcase 2023/07/27 v1.04 Text only upper/lower case changing (DPC)
+Package: textcase 2025/02/16 v1.05 Text only upper/lower case changing (DPC)
 Package textcase Info: Defining Legacy names on input line 20.
 )
 \c@figure=\count318
@@ -1532,7 +1532,7 @@ x) (/usr/local/texlive/2024/texmf-dist/tex/generic/circuitikz/pgfcirclabel.tex)
 (/usr/local/texlive/2024/texmf-dist/tex/generic/circuitikz/pgfcirccurrent.tex)
 (/usr/local/texlive/2024/texmf-dist/tex/generic/circuitikz/pgfcircflow.tex))
 (/usr/local/texlive/2024/texmf-dist/tex/latex/siunitx/siunitx.sty
-Package: siunitx 2025-01-21 v3.4.4 A comprehensive (SI) units package
+Package: siunitx 2025-02-19 v3.4.5 A comprehensive (SI) units package
 \l__siunitx_number_uncert_offset_int=\count431
 \l__siunitx_number_exponent_fixed_int=\count432
 \l__siunitx_number_min_decimal_int=\count433
@@ -1607,14 +1607,14 @@ File: lstlang1.sty 2024/09/23 1.10c listings language file
 File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/adjustbox/adjustbox.sty
-Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
+Package: adjustbox 2025/02/26 v1.3c Adjusting TeX boxes (trim, clip, ...)
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/adjustbox/adjcalc.sty
 Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
 -ends (calc, etex, pgfmath)
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/adjustbox/trimclip.sty
-Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+Package: trimclip 2025/02/21 v1.2a Trim and clip general TeX material
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/collectbox/collectbox.sty
 Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
@@ -1627,7 +1627,7 @@ Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
 Package trimclip Info: Using driver 'tc-pdftex.def'.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
-File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+File: tc-pdftex.def 2025/02/26 v2.3 Clipping driver for pdftex
 ))
 \adjbox@Width=\dimen388
 \adjbox@Height=\dimen389
@@ -1992,13 +1992,13 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 [12]) (./capitulos/3-atividades.tex
 
 [13]
-<arquivos/imagens/arquitetura-relatorio-estagio.pdf, id=175, 792.21257pt x 566.
+<arquivos/imagens/arquitetura-relatorio-estagio.pdf, id=183, 792.21257pt x 566.
 33334pt>
 File: arquivos/imagens/arquitetura-relatorio-estagio.pdf Graphic file (type pdf
 )
 <use arquivos/imagens/arquitetura-relatorio-estagio.pdf>
 Package pdftex.def Info: arquivos/imagens/arquitetura-relatorio-estagio.pdf  us
-ed on input line 28.
+ed on input line 27.
 (pdftex.def)             Requested size: 455.0pt x 325.2762pt.
 
 
@@ -2011,30 +2011,31 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 ]
 
 [15 <./arquivos/imagens/arquitetura-relatorio-estagio.pdf>]
-<arquivos/imagens/onboarding-fluxo.jpg, id=206, 1363.0925pt x 737.75626pt>
+<arquivos/imagens/onboarding-fluxo.jpg, id=215, 1363.0925pt x 737.75626pt>
 File: arquivos/imagens/onboarding-fluxo.jpg Graphic file (type jpg)
 <use arquivos/imagens/onboarding-fluxo.jpg>
 Package pdftex.def Info: arquivos/imagens/onboarding-fluxo.jpg  used on input l
-ine 82.
+ine 81.
 (pdftex.def)             Requested size: 455.0pt x 246.26337pt.
-<arquivos/imagens/Cadastro-Atualizacao-fluxo.jpg, id=208, 1553.805pt x 647.4187
+
+
+[16 <./arquivos/imagens/onboarding-fluxo.jpg>]
+<arquivos/imagens/Cadastro-Atualizacao-fluxo.jpg, id=221, 1553.805pt x 647.4187
 5pt>
 File: arquivos/imagens/Cadastro-Atualizacao-fluxo.jpg Graphic file (type jpg)
 <use arquivos/imagens/Cadastro-Atualizacao-fluxo.jpg>
 Package pdftex.def Info: arquivos/imagens/Cadastro-Atualizacao-fluxo.jpg  used 
-on input line 107.
+on input line 106.
 (pdftex.def)             Requested size: 455.0pt x 189.58408pt.
 
 
-[16 <./arquivos/imagens/onboarding-fluxo.jpg>]
-
 [17 <./arquivos/imagens/Cadastro-Atualizacao-fluxo.jpg>]
-<arquivos/imagens/fluxo-rotina-inativacao.jpg, id=220, 1773.62625pt x 567.11874
+<arquivos/imagens/fluxo-rotina-inativacao.jpg, id=229, 1773.62625pt x 567.11874
 pt>
 File: arquivos/imagens/fluxo-rotina-inativacao.jpg Graphic file (type jpg)
 <use arquivos/imagens/fluxo-rotina-inativacao.jpg>
 Package pdftex.def Info: arquivos/imagens/fluxo-rotina-inativacao.jpg  used on 
-input line 166.
+input line 165.
 (pdftex.def)             Requested size: 455.0pt x 145.48303pt.
 )
 
@@ -2074,23 +2075,23 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `principal.brf' has not changed.
-(rerunfilecheck)             Checksum: 6590976CBF00362CF21B5AFC8F558C21;511.
+(rerunfilecheck)             Checksum: 9272C93D373268AE804A2DC265526B74;680.
  ) 
 Here is how much of TeX's memory you used:
- 69858 strings out of 473201
- 1691707 string characters out of 5716120
- 2644488 words of memory out of 5000000
- 91828 multiletter control sequences out of 15000+600000
- 612819 words of font info for 241 fonts, out of 8000000 for 9000
+ 69893 strings out of 473201
+ 1692651 string characters out of 5716120
+ 2648492 words of memory out of 5000000
+ 91859 multiletter control sequences out of 15000+600000
+ 612935 words of font info for 242 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 104i,12n,136p,1006b,1335s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 104i,13n,136p,1006b,1335s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/lo
 cal/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texliv
 e/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on principal.pdf (23 pages, 547382 bytes).
+Output written on principal.pdf (23 pages, 549133 bytes).
 PDF statistics:
- 399 PDF objects out of 1000 (max. 8388607)
- 353 compressed objects within 4 object streams
- 91 named destinations out of 1000 (max. 500000)
+ 415 PDF objects out of 1000 (max. 8388607)
+ 369 compressed objects within 4 object streams
+ 94 named destinations out of 1000 (max. 500000)
  55070 words of extra memory for PDF output out of 61914 (max. 10000000)
 

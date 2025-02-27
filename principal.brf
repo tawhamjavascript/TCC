@@ -1,3 +1,5 @@
+\backcite {biros-credito-explicacao}{{9}{1}{chapter.1}}
+\backcite {idtechs:explicacao}{{9}{1}{chapter.1}}
 \backcite {uml:explicacao}{{11}{2.1}{section.2.1}}
 \backcite {sql:explicacao}{{11}{2.2}{section.2.2}}
 \backcite {spring:explicacao}{{11}{2.3}{section.2.3}}
@@ -6,4 +8,5 @@
 \backcite {flyway:explicacao}{{12}{2.4}{section.2.4}}
 \backcite {swt:explicacao}{{12}{2.5}{section.2.5}}
 \backcite {kanban:explicacao}{{13}{2.6}{section.2.6}}
+\backcite {processadora-cartao:explicacao}{{14}{3}{chapter.3}}
 \backcite {distributed:systems:book}{{14}{3.1}{section.3.1}}

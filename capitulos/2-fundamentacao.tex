@@ -55,11 +55,12 @@ gestão de requisições e na capacidade de realizar solicitações assíncronas
 Flyway é uma ferramenta open source específica para o ecossistema Java, que visa gerenciar migrações nos bancos de dados 
 relacionais a partir de arquivos SQL. A ferramenta exige que os arquivos sigam um padrão de nomeação, indicando o número 
 da versão do script e o seu propósito \cite{flyway:explicacao}. 
-Essa ferramenta foi utilizada nos microsserviços para o controle de migrações nos 
-ambientes de homologação e produção, sendo feita quatro migrações para os ambientes 
-de homologação e produção, com o intuito de manter a consistência entre os ambientes,
-sendo duas migrações do microsserviço de onboarding para criar as tabelas de logs do sistema
-e mais duas do microserviço de cadastro ou atualização de cliente para criar as tabelas de logs do sistema.
+A ferramenta em questão foi utilizada nos microsserviços para o controle de migrações nos ambientes de homologação e 
+produção. Foram realizadas quatro migrações nesses ambientes, com o intuito de manter a consistência entre eles. 
+Especificamente, duas migrações foram aplicadas ao microsserviço de onboarding para a criação das tabelas de logs do 
+sistema, e outras duas ao microsserviço de cadastro ou atualização de cliente, também para a criação das tabelas de logs 
+do sistema.
+
 
 
 \section{SWT}
